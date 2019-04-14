@@ -17,4 +17,5 @@ const input = {
   }
 };
 
-new CliInteractive({ input }).readInput();
+// eslint-disable-next-line
+new CliInteractive({ input });
